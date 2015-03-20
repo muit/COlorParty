@@ -8,5 +8,6 @@ public class RoomDoor : Door
     new void OnClose()
     {
         Game.GetScene().GoPhase("RoomExit");
+        
     }
 }
